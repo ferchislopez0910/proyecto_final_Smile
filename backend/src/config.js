@@ -1,7 +1,8 @@
-
+require('dotenv').config()
 export const config = {
-	host: '192.168.1.4',
-	user: 'dev',
-	password: 'dev',
-	database: 'bd_smileapp'
+	host: 		process.env.DB_HOST,
+	user: 		process.env.DB_USER,
+	password: 	process.env.DB_PASS,
+	database: 	process.env.DB_DATABASE,
+	port: 		process.env.DB_POR
 }
