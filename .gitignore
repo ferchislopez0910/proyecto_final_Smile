@@ -1,6 +1,7 @@
 # Se agregan los distribuibles para que una vez se clone el repo, se tenga que compilar
 dist/
 
+
 node_modules/
 # Logs
 logs
