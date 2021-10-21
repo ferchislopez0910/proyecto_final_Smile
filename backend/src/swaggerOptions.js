@@ -1,7 +1,7 @@
 export const options = {
 	definition: {
 		info: {
-			title: "Smile api"
+			title: "Smile Api"
 		}
 	},
 	apis: ["./src/routes/**/*.js"]

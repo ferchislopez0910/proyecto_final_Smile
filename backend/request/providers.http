@@ -1,0 +1,35 @@
+@api = http://localhost:3000/providers
+
+GET {{api}}
+
+###
+GET {{api}}/1
+
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+	"identificacion": 32020,
+	"nombre": "Var y Papel",
+	"telefono": "2342448",
+	"direccion": "Cl 76 80 170",
+	"whatsapp_link": "3007371435"
+}
+
+###
+DELETE {{api}}/
+
+###
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+	"identificacion": 32019,
+	"nombre": "Var y Papel",
+	"telefono": "2342448",
+	"direccion": "Cl 76 80 170",
+	"whatsapp_link": "3007371435"
+	
+}

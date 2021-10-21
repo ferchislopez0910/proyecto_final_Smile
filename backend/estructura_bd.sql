@@ -17,9 +17,9 @@ OR REPLACE TABLE tbl_proveedor (
 	id int NOT NULL AUTO_INCREMENT,
 	identificacion varchar(50) NOT NULL,
 	nombre varchar(255) NOT NULL,
-	telefono varchar(100),
+	telefono varchar(100) NOT NULL,
 	direccion varchar(100),
-	redes_sociales varchar(200),
+	whatsapp_link varchar(200) NOT NULL,
 	fecha_registro timestamp NOT NULL default CURRENT_TIMESTAMP,
 	PRIMARY KEY (id)
 );
@@ -56,7 +56,7 @@ INSERT INTO
 		`nombre`,
 		`telefono`,
 		`direccion`,
-		`redes_sociales`,
+		`whatsapp_link`,
 		`fecha_registro`
 	)
 VALUES

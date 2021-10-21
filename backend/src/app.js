@@ -9,6 +9,7 @@ import {options} from './swaggerOptions';
 const specs = swaggerJSDoc(options)
 
 import productRoutes from './routes/routeProducts'
+import providersRoutes from './routes/routeProviders'
 
 const app = express();
 
@@ -19,5 +20,6 @@ app.use(express.json())
 app.use('/docs', swaggerUI.serve, swaggerUI.setup(specs));
 
 app.use(productRoutes)
+app.use(providersRoutes)
 
 export default app

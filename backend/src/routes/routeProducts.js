@@ -19,14 +19,6 @@ const router = Router();
 /**
  * @swagger
  * tags:
- *  name: Providers
- *  description: providers endpoint
- * 
- */
-
-/**
- * @swagger
- * tags:
  *  name: Category
  *  description: Category endpoint
  * 
